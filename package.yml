@@ -1,8 +1,8 @@
 name       : kcalcore
-version    : 18.04.0
-release    : 10
+version    : 18.04.1
+release    : 11
 source     :
-    - https://cdn.download.kde.org/stable/applications/18.04.0/src/kcalcore-18.04.0.tar.xz : 55ec98418c571f8dd0874c2ac46d660d4d2aee1b1a66b34370c447eb0fa98f3c
+    - https://cdn.download.kde.org/stable/applications/18.04.1/src/kcalcore-18.04.1.tar.xz : 5d18dc178f20fd5c922980f11b267320b14f7f1ff45935e66726c679d3ba4360
 license    : LGPL-2.1
 component  : desktop.library
 optimize   : lto
