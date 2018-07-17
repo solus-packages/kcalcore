@@ -19,7 +19,8 @@
 </Description>
         <PartOf>desktop.library</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/lib*.so.*</Path>
+            <Path fileType="library">/usr/lib64/libKF5CalendarCore.so.5</Path>
+            <Path fileType="library">/usr/lib64/libKF5CalendarCore.so.5.8.3</Path>
             <Path fileType="library">/usr/lib64/qt5/mkspecs/modules/qt_KCalCore.pri</Path>
             <Path fileType="data">/usr/share/xdg/kcalcore.categories</Path>
             <Path fileType="data">/usr/share/xdg/kcalcore.renamecategories</Path>
@@ -32,18 +33,86 @@
 </Description>
         <PartOf>programming.devel</PartOf>
         <RuntimeDependencies>
-            <Dependency release="12">kcalcore</Dependency>
+            <Dependency release="13">kcalcore</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="header">/usr/include/</Path>
-            <Path fileType="library">/usr/lib64/cmake/</Path>
-            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Alarm</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Attachment</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Attendee</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/CalFilter</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/CalFormat</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/CalStorage</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Calendar</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/CustomProperties</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Duration</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Event</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Exceptions</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/FileStorage</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/FreeBusy</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/FreeBusyCache</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/FreeBusyPeriod</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/ICalFormat</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Incidence</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/IncidenceBase</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Journal</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/MemoryCalendar</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/OccurrenceIterator</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Period</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Person</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Recurrence</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/RecurrenceRule</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/ScheduleMessage</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/SortableList</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Sorting</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Todo</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/VCalFormat</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/KCalCore/Visitor</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/alarm.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/attachment.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/attendee.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/calendar.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/calfilter.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/calformat.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/calstorage.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/customproperties.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/duration.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/event.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/exceptions.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/filestorage.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/freebusy.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/freebusycache.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/freebusyperiod.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/icalformat.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/incidence.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/incidencebase.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/journal.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/kcalcore_export.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/memorycalendar.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/occurrenceiterator.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/period.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/person.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/recurrence.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/recurrencerule.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/schedulemessage.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/sortablelist.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/sorting.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/supertrait.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/todo.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/vcalformat.h</Path>
+            <Path fileType="header">/usr/include/KF5/KCalCore/kcalcore/visitor.h</Path>
+            <Path fileType="header">/usr/include/KF5/kcalcore_version.h</Path>
+            <Path fileType="library">/usr/lib64/cmake/KF5CalendarCore/FindLibIcal.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/KF5CalendarCore/KF5CalendarCoreConfig.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/KF5CalendarCore/KF5CalendarCoreConfigVersion.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/KF5CalendarCore/KF5CalendarCoreTargets-relwithdebinfo.cmake</Path>
+            <Path fileType="library">/usr/lib64/cmake/KF5CalendarCore/KF5CalendarCoreTargets.cmake</Path>
+            <Path fileType="library">/usr/lib64/libKF5CalendarCore.so</Path>
         </Files>
     </Package>
     <History>
-        <Update release="12">
-            <Date>2018-06-13</Date>
-            <Version>18.04.2</Version>
+        <Update release="13">
+            <Date>2018-07-16</Date>
+            <Version>18.04.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Peter O&apos;Connor</Name>
             <Email>peter@solus-project.com</Email>
