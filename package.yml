@@ -1,15 +1,14 @@
 name       : kcalcore
-version    : 18.04.3
-release    : 13
+version    : 18.08.0
+release    : 14
 source     :
-    - https://cdn.download.kde.org/stable/applications/18.04.3/src/kcalcore-18.04.3.tar.xz : f2df15f6d60c6a95862a98ec50de4dbc311c4f6e0157982dbf15aa5646454fd0
+    - https://cdn.download.kde.org/stable/applications/18.08.0/src/kcalcore-18.08.0.tar.xz : c5f3e068debcc7e79c1da4e6932c5edc02205335600b2199b83621fc3ce8bf69
 license    : LGPL-2.1
 component  : desktop.library
 summary    : Provides access to and handling of calendar data
 description: |
     This library provides access to and handling of calendar data. It supports the standard formats iCalendar and vCalendar and the group scheduling standard iTIP.
 builddeps  :
-    - pkgconfig(gl)
     - pkgconfig(Qt5Core)
     - extra-cmake-modules
     - libical-devel
