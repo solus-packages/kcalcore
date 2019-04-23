@@ -1,8 +1,8 @@
 name       : kcalcore
-version    : 18.12.3
-release    : 22
+version    : 19.04.0
+release    : 23
 source     :
-    - https://cdn.download.kde.org/stable/applications/18.12.3/src/kcalcore-18.12.3.tar.xz : d6d6ce1bbdea4eac352b74bcc4bee77da107fdbafab47440b6be5fc3f9d90452
+    - https://cdn.download.kde.org/stable/applications/19.04.0/src/kcalcore-19.04.0.tar.xz : 0cdcfebabb9af96650b71ba6361a4557df35144f0b1041f004bff7510c6334b2
 license    : LGPL-2.1-or-later
 component  : desktop.library
 summary    : Provides access to and handling of calendar data
