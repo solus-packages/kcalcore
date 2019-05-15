@@ -1,7 +1,9 @@
 libQt5Core.so.5
 libQt5Gui.so.5
 libc.so.6
+libgcc_s.so.1
 libical.so.3
 libicalss.so.3
 libicalvcal.so.3
+libm.so.6
 libstdc++.so.6
